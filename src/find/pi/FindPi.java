@@ -16,8 +16,7 @@ public class FindPi {
     public static void main(String[] args) {
         // Program to find Pi to a given number of decimal places
         // Has a user interface using Swing
-        SwingUtilities.invokeLater(new UserInterface());
-        
+            SwingUtilities.invokeLater(new UserInterface());
     }
     
 }

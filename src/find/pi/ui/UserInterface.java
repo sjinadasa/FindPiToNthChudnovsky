@@ -62,7 +62,7 @@ public class UserInterface implements Runnable {
         // Output field is a Text Area inside a ScrollPane cuz of the number of decimals
         JTextArea outputField = new JTextArea();
         JScrollPane outputScroll = new JScrollPane(outputField);
-        outputField.setEnabled(false);
+        outputField.setEditable(false);
         JLabel outputLabel = new JLabel("Pi is ", JLabel.CENTER);
 
         // Creating a progress Bar
